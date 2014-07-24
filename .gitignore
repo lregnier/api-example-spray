@@ -1,0 +1,53 @@
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+null
+tmp*
+temp*
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+#SHITTY output not in target directory
+build.log
+
+sql2mongo_2013-08-15-12-03-48.txt
+/.cache
+
+.cache
+sql-server-2-mongo.log
+*.log
+sql-server-2-mongo.log.*
+sql-server-2-mongodb.log
+sql2mongo-migration/sql-server-2-mongo.log
+sql2mongo-migration/*.log
+**/mongo-db-populator.log.*
